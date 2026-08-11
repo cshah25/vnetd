@@ -1,0 +1,11 @@
+# Build output
+build/
+*.o
+*.a
+*.so
+vnetd
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
