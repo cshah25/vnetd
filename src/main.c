@@ -34,6 +34,7 @@ static void on_tun_read(int fd, uint32_t events, void *arg) {
             clamp_tcp_mss(buf->data, buf->length, TCP_MSS);
             if (remote_addr.sin_port != 0) {
                 sendto(udp_fd, buf->data, buf->length, 0, (struct sockaddr *)&remote_addr, sizeof(remote_addr));
+                printf("[TUN -> UDP] Encapsulated and forwarded %zu bytes\n", buf->length);
             }
         }
     }
@@ -54,6 +55,8 @@ static void on_udp_read(int fd, uint32_t events, void *arg) {
         buf->length = n;
         if (write(tun_fd, buf->data, buf->length) < 0) {
             perror("write tun_fd");
+        } else {
+            printf("[UDP -> TUN] Decapsulated and forwarded %zu bytes\n", buf->length);
         }
     }
     buffer_release(buf);
@@ -83,19 +86,24 @@ int main(int argc, char *argv[]) {
     }
     printf("Successfully allocated TUN interface %s\n", tun_name);
 
-    udp_fd = udp_bind(BIND_PORT);
+    int bind_port = BIND_PORT;
+    if (argc > 2) {
+        bind_port = atoi(argv[2]);
+    }
+
+    udp_fd = udp_bind(bind_port);
     if (udp_fd < 0) {
-        fprintf(stderr, "Failed to bind UDP port %d\n", BIND_PORT);
+        fprintf(stderr, "Failed to bind UDP port %d\n", bind_port);
         return 1;
     }
-    printf("Successfully bound UDP port %d\n", BIND_PORT);
+    printf("Successfully bound UDP port %d\n", bind_port);
 
     memset(&remote_addr, 0, sizeof(remote_addr));
-    if (argc > 3) {
+    if (argc > 4) {
         remote_addr.sin_family = AF_INET;
-        remote_addr.sin_addr.s_addr = inet_addr(argv[2]);
-        remote_addr.sin_port = htons(atoi(argv[3]));
-        printf("Configured remote peer: %s:%s\n", argv[2], argv[3]);
+        remote_addr.sin_addr.s_addr = inet_addr(argv[3]);
+        remote_addr.sin_port = htons(atoi(argv[4]));
+        printf("Configured remote peer: %s:%s\n", argv[3], argv[4]);
     }
 
     if (reactor_init() < 0) {
