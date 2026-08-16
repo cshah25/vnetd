@@ -10,6 +10,8 @@
 #include "buffer.h"
 #include "reactor.h"
 #include "mtu.h"
+#include "crypto.h"
+#include "protocol.h"
 
 #define BIND_PORT 8200
 #define TCP_MSS 1360
@@ -66,6 +68,11 @@ int main(int argc, char *argv[]) {
 
     if (buffer_pool_init(1024) < 0) {
         fprintf(stderr, "Failed to initialize buffer pool\n");
+        return 1;
+    }
+
+    if (crypto_init() < 0) {
+        fprintf(stderr, "Failed to initialize libsodium crypto\n");
         return 1;
     }
 

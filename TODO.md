@@ -13,9 +13,9 @@
 - [x] Write TCP MSS clamping utility (`mtu.c` / `mtu.h`)
 
 ## Priority 3: Cryptography & Security Subsystem
-- [ ] Wrap `libsodium` AEAD (`crypto.c` / `crypto.h`)
-- [ ] Define binary wire protocol (`protocol.h`)
-- [ ] Implement sliding-window anti-replay (`replay.c` / `replay.h`)
+- [x] Wrap `libsodium` AEAD (`crypto.c` / `crypto.h`)
+- [x] Define binary wire protocol (`protocol.h`)
+- [x] Implement sliding-window anti-replay (`replay.c` / `replay.h`)
 
 ## Priority 4: Session & Control Plane
 - [ ] Build peer tracking (`peer.c` / `peer.h`)

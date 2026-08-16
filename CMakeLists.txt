@@ -16,6 +16,8 @@ set(SOURCES
     src/buffer.c
     src/reactor.c
     src/mtu.c
+    src/crypto.c
+    src/replay.c
 )
 
 add_executable(vnetd ${SOURCES})
