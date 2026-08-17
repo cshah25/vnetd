@@ -18,6 +18,9 @@ set(SOURCES
     src/mtu.c
     src/crypto.c
     src/replay.c
+    src/peer.c
+    src/handshake.c
+    src/timers.c
 )
 
 add_executable(vnetd ${SOURCES})

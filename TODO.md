@@ -18,10 +18,10 @@
 - [x] Implement sliding-window anti-replay (`replay.c` / `replay.h`)
 
 ## Priority 4: Session & Control Plane
-- [ ] Build peer tracking (`peer.c` / `peer.h`)
-- [ ] Implement Noise-like handshake (`handshake.c` / `handshake.h`)
-- [ ] Add keepalive heartbeats (`timers.c` / `timers.h`)
-- [ ] Dynamic remote IP tracking
+- [x] Build peer tracking (`peer.c` / `peer.h`)
+- [x] Implement Noise-like handshake (`handshake.c` / `handshake.h`)
+- [x] Add keepalive heartbeats (`timers.c` / `timers.h`)
+- [x] Dynamic remote IP tracking
 
 ## Priority 5: Routing & System Integration
 - [ ] Routing utilities (`route.c` / `system.c`)
