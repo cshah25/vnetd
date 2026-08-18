@@ -18,6 +18,17 @@ int udp_bind(int port) {
     // Optional: SO_REUSEADDR
     int optval = 1;
     setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval));
+    if (setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval)) < 0) {
+        perror("setsockopt SO_REUSEADDR");
+        close(fd);
+        return -1;
+    }
+
+    int mark = 0x1337; // Arbitrary mark to identify VPN daemon traffic
+    if (setsockopt(fd, SOL_SOCKET, SO_MARK, &mark, sizeof(mark)) < 0) {
+        // Non-fatal, just a warning if not running with CAP_NET_ADMIN
+        perror("Warning: setsockopt SO_MARK failed");
+    }
 
     memset(&addr, 0, sizeof(addr));
     addr.sin_family = AF_INET;
