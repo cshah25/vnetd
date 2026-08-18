@@ -24,6 +24,6 @@
 - [x] Dynamic remote IP tracking
 
 ## Priority 5: Routing & System Integration
-- [ ] Routing utilities (`route.c` / `system.c`)
-- [ ] `SO_MARK` socket options
-- [ ] Setup and teardown scripts
+- [x] Routing utilities (`route.c` / `system.c`)
+- [x] `SO_MARK` socket options
+- [x] Privilege drop (`setuid`/`setgid`)

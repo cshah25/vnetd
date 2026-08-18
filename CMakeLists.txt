@@ -21,6 +21,8 @@ set(SOURCES
     src/peer.c
     src/handshake.c
     src/timers.c
+    src/route.c
+    src/system.c
 )
 
 add_executable(vnetd ${SOURCES})
