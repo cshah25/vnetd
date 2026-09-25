@@ -1,0 +1,70 @@
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.2.1, port 41802
+[  5] local 192.168.2.2 port 5201 connected to 192.168.2.1 port 41818
+[  8] local 192.168.2.2 port 5201 connected to 192.168.2.1 port 41820
+[ 10] local 192.168.2.2 port 5201 connected to 192.168.2.1 port 41830
+[ 12] local 192.168.2.2 port 5201 connected to 192.168.2.1 port 41834
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  30.8 MBytes   258 Mbits/sec                  
+[  8]   0.00-1.00   sec  43.5 MBytes   365 Mbits/sec                  
+[ 10]   0.00-1.00   sec  12.5 MBytes   105 Mbits/sec                  
+[ 12]   0.00-1.00   sec  19.2 MBytes   161 Mbits/sec                  
+[SUM]   0.00-1.00   sec   106 MBytes   889 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   1.00-2.00   sec  37.0 MBytes   310 Mbits/sec                  
+[  8]   1.00-2.00   sec  30.0 MBytes   252 Mbits/sec                  
+[ 10]   1.00-2.00   sec  21.4 MBytes   179 Mbits/sec                  
+[ 12]   1.00-2.00   sec  15.2 MBytes   128 Mbits/sec                  
+[SUM]   1.00-2.00   sec   104 MBytes   869 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   2.00-3.00   sec  39.0 MBytes   327 Mbits/sec                  
+[  8]   2.00-3.00   sec  21.8 MBytes   182 Mbits/sec                  
+[ 10]   2.00-3.00   sec  18.5 MBytes   155 Mbits/sec                  
+[ 12]   2.00-3.00   sec  21.1 MBytes   177 Mbits/sec                  
+[SUM]   2.00-3.00   sec   100 MBytes   842 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   3.00-4.00   sec  40.8 MBytes   342 Mbits/sec                  
+[  8]   3.00-4.00   sec  17.8 MBytes   149 Mbits/sec                  
+[ 10]   3.00-4.00   sec  17.5 MBytes   147 Mbits/sec                  
+[ 12]   3.00-4.00   sec  22.5 MBytes   189 Mbits/sec                  
+[SUM]   3.00-4.00   sec  98.5 MBytes   826 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   4.00-5.00   sec  37.2 MBytes   312 Mbits/sec                  
+[  8]   4.00-5.00   sec  16.9 MBytes   142 Mbits/sec                  
+[ 10]   4.00-5.00   sec  17.4 MBytes   146 Mbits/sec                  
+[ 12]   4.00-5.00   sec  28.9 MBytes   242 Mbits/sec                  
+[SUM]   4.00-5.00   sec   100 MBytes   842 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   5.00-6.00   sec  38.2 MBytes   321 Mbits/sec                  
+[  8]   5.00-6.00   sec  15.4 MBytes   129 Mbits/sec                  
+[ 10]   5.00-6.00   sec  12.1 MBytes   102 Mbits/sec                  
+[ 12]   5.00-6.00   sec  33.9 MBytes   284 Mbits/sec                  
+[SUM]   5.00-6.00   sec  99.6 MBytes   836 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   6.00-7.00   sec  34.0 MBytes   285 Mbits/sec                  
+[  8]   6.00-7.00   sec  15.0 MBytes   126 Mbits/sec                  
+[ 10]   6.00-7.00   sec  14.6 MBytes   123 Mbits/sec                  
+[ 12]   6.00-7.00   sec  33.4 MBytes   280 Mbits/sec                  
+[SUM]   6.00-7.00   sec  97.0 MBytes   814 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   7.00-8.00   sec  24.6 MBytes   207 Mbits/sec                  
+[  8]   7.00-8.00   sec  20.9 MBytes   175 Mbits/sec                  
+[ 10]   7.00-8.00   sec  19.1 MBytes   160 Mbits/sec                  
+[ 12]   7.00-8.00   sec  33.4 MBytes   280 Mbits/sec                  
+[SUM]   7.00-8.00   sec  98.0 MBytes   822 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   8.00-8.05   sec  1.25 MBytes   228 Mbits/sec                  
+[  8]   8.00-8.05   sec  1.00 MBytes   182 Mbits/sec                  
+[ 10]   8.00-8.05   sec   768 KBytes   137 Mbits/sec                  
+[ 12]   8.00-8.05   sec  1.50 MBytes   273 Mbits/sec                  
+[SUM]   8.00-8.05   sec  4.50 MBytes   821iperf3: interrupt - the server has terminated by signal Interrupt(2)
+ Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-8.05   sec   283 MBytes   295 Mbits/sec                  receiver
+[  8]   0.00-8.05   sec   182 MBytes   190 Mbits/sec                  receiver
+[ 10]   0.00-8.05   sec   134 MBytes   140 Mbits/sec                  receiver
+[ 12]   0.00-8.05   sec   209 MBytes   218 Mbits/sec                  receiver
+[SUM]   0.00-8.05   sec   808 MBytes   842 Mbits/sec                  receiver

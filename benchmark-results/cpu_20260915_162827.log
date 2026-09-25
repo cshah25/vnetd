@@ -1,0 +1,121 @@
+Linux 7.2.4 (NixThinkpad) 	2026-09-15 	_x86_64_	(16 CPU)
+
+04:29:33 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:34 PM     0     59604   13.00   60.00    0.00    0.00   73.00     7  vnetd
+04:29:34 PM     0     59605   19.00   62.00    0.00    0.00   81.00    13  vnetd
+
+04:29:34 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:35 PM     0     59604   10.00   64.00    0.00    0.00   74.00    11  vnetd
+04:29:35 PM     0     59605   18.00   63.00    0.00    1.00   81.00     7  vnetd
+
+04:29:35 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:36 PM     0     59604   13.00   62.00    0.00    0.00   75.00    11  vnetd
+04:29:36 PM     0     59605   19.00   66.00    0.00    0.00   85.00    13  vnetd
+
+04:29:36 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:37 PM     0     59604   13.00   61.00    0.00    0.00   74.00    11  vnetd
+04:29:37 PM     0     59605   19.00   65.00    0.00    0.00   84.00     7  vnetd
+
+04:29:37 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:38 PM     0     59604   15.00   60.00    0.00    0.00   75.00    13  vnetd
+04:29:38 PM     0     59605   18.00   66.00    0.00    0.00   84.00     7  vnetd
+
+04:29:38 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:39 PM     0     59604   13.00   62.00    0.00    1.00   75.00     8  vnetd
+04:29:39 PM     0     59605   21.00   64.00    0.00    1.00   85.00    11  vnetd
+
+04:29:39 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:40 PM     0     59604   13.00   61.00    0.00    0.00   74.00    11  vnetd
+04:29:40 PM     0     59605   18.00   66.00    0.00    0.00   84.00    13  vnetd
+
+04:29:40 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:41 PM     0     59604   14.00   62.00    0.00    0.00   76.00    13  vnetd
+04:29:41 PM     0     59605   19.00   65.00    0.00    0.00   84.00    11  vnetd
+
+04:29:41 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:42 PM     0     59604   12.00   62.00    0.00    0.00   74.00     6  vnetd
+04:29:42 PM     0     59605   17.00   67.00    0.00    0.00   84.00    11  vnetd
+
+04:29:42 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:43 PM     0     59604   14.00   61.00    0.00    0.00   75.00    11  vnetd
+04:29:43 PM     0     59605   19.00   65.00    0.00    0.00   84.00    13  vnetd
+
+04:29:43 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:44 PM     0     59604   13.00   62.00    0.00    0.00   75.00    13  vnetd
+04:29:44 PM     0     59605   21.00   63.00    0.00    0.00   84.00     7  vnetd
+
+04:29:44 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:45 PM     0     59604   12.00   62.00    0.00    0.00   74.00     7  vnetd
+04:29:45 PM     0     59605   19.00   65.00    0.00    0.00   84.00     4  vnetd
+
+04:29:45 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:46 PM     0     59604   12.00   62.00    0.00    0.00   74.00    11  vnetd
+04:29:46 PM     0     59605   17.00   66.00    0.00    0.00   83.00    12  vnetd
+
+04:29:46 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:47 PM     0     59604   13.00   62.00    0.00    0.00   75.00    13  vnetd
+04:29:47 PM     0     59605   17.00   68.00    0.00    1.00   85.00     9  vnetd
+
+04:29:47 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:48 PM     0     59604   14.00   61.00    0.00    0.00   75.00     6  vnetd
+04:29:48 PM     0     59605   20.00   64.00    0.00    0.00   84.00     9  vnetd
+
+04:29:48 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:49 PM     0     59604   11.00   64.00    0.00    0.00   75.00     6  vnetd
+04:29:49 PM     0     59605   19.00   66.00    0.00    0.00   85.00     8  vnetd
+
+04:29:49 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:50 PM     0     59604   15.00   60.00    0.00    0.00   75.00    10  vnetd
+04:29:50 PM     0     59605   19.00   65.00    0.00    0.00   84.00     7  vnetd
+
+04:29:50 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:51 PM     0     59604   13.00   61.00    0.00    0.00   74.00    10  vnetd
+04:29:51 PM     0     59605   19.00   64.00    0.00    0.00   83.00    13  vnetd
+
+04:29:51 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:52 PM     0     59604   13.00   62.00    0.00    1.00   75.00    11  vnetd
+04:29:52 PM     0     59605   17.00   68.00    0.00    0.00   85.00    15  vnetd
+
+04:29:52 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:53 PM     0     59604   13.00   63.00    0.00    0.00   76.00    11  vnetd
+04:29:53 PM     0     59605   22.00   62.00    0.00    1.00   84.00     6  vnetd
+
+04:29:53 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:54 PM     0     59604   14.00   60.00    0.00    0.00   74.00    12  vnetd
+04:29:54 PM     0     59605   18.00   67.00    0.00    0.00   85.00     6  vnetd
+
+04:29:54 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:55 PM     0     59604   13.00   63.00    0.00    0.00   76.00    13  vnetd
+04:29:55 PM     0     59605   17.00   67.00    0.00    0.00   84.00    11  vnetd
+
+04:29:55 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:56 PM     0     59604   14.00   60.00    0.00    0.00   74.00    11  vnetd
+04:29:56 PM     0     59605   20.00   64.00    0.00    0.00   84.00    13  vnetd
+
+04:29:56 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:57 PM     0     59604   14.00   60.00    0.00    0.00   74.00     6  vnetd
+04:29:57 PM     0     59605   20.00   64.00    0.00    0.00   84.00    11  vnetd
+
+04:29:57 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:58 PM     0     59604   15.00   60.00    0.00    0.00   75.00    11  vnetd
+04:29:58 PM     0     59605   19.00   64.00    0.00    0.00   83.00    12  vnetd
+
+04:29:58 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:29:59 PM     0     59604   15.00   60.00    0.00    0.00   75.00    13  vnetd
+04:29:59 PM     0     59605   18.00   66.00    0.00    0.00   84.00    11  vnetd
+
+04:29:59 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:30:00 PM     0     59604   14.00   60.00    0.00    0.00   74.00     7  vnetd
+04:30:00 PM     0     59605   20.00   63.00    0.00    1.00   83.00    11  vnetd
+
+04:30:00 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:30:01 PM     0     59604   13.00   63.00    0.00    0.00   76.00    11  vnetd
+04:30:01 PM     0     59605   20.00   65.00    0.00    0.00   85.00    12  vnetd
+
+04:30:01 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:30:02 PM     0     59604   13.00   61.00    0.00    0.00   74.00    15  vnetd
+04:30:02 PM     0     59605   19.00   66.00    0.00    0.00   85.00    13  vnetd
+
+04:30:02 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+04:30:03 PM     0     59604   14.00   61.00    0.00    0.00   75.00    13  vnetd
+04:30:03 PM     0     59605   17.00   67.00    0.00    0.00   84.00    11  vnetd
